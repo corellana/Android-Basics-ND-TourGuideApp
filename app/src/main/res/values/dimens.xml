@@ -1,0 +1,17 @@
+<resources>
+    <!-- Height of each list item -->
+    <dimen name="list_item_height">88dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!-- FrameLayout -->
+    <dimen name="fl_layout_height">220dp</dimen>
+    <dimen name="fl_layout_margin">8dp</dimen>
+    <dimen name="fl_elevation">2dp</dimen>
+    <dimen name="fl_background">220dp</dimen>
+
+    <!-- Location Name -->
+    <dimen name="text_view_layout_margin">16dp</dimen>
+    <dimen name="text_view_text_size">18sp</dimen>
+
+</resources>
+

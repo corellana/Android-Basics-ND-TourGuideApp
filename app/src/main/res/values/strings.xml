@@ -1,0 +1,20 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name" translatable="false">Tour Guide Santiago de Chile</string>
+
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_local_favorites">Local Favorites</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_views_vistas">Views and Vistas</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_top_spot">Top Spots</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_outdoors">Outdoors</string>
+
+    <!-- List Item Layout -->
+    <string name="image_icon_description">Icon Image</string>
+
+</resources>

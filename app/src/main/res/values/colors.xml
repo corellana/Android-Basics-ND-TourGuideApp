@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#2196F3</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#1976D2</color>
+
+    <!-- Background color for app -->
+    <color name="tan_background">#FFFFFF</color>
+
+    <color name="tab_tex_color">#757575</color>
+
+    <color name="tab_selected_text_color">#212121</color>
+
+    <!-- Location Name -->
+    <color name="text_view_text_color">#FFFFFF</color>
+
+    <!-- Location Name -->
+    <color name="divider_color">#FFFFFF</color>
+</resources>
+
+
