@@ -17,4 +17,24 @@
     <!-- List Item Layout -->
     <string name="image_icon_description">Icon Image</string>
 
+    <string name="hint_location_name">Location Name</string>
+
+    <!-- List of fragments -->
+
+    <string name="top_spot_sancristobal">Cerro San Cristóbal</string>
+    <string name="top_spot_santalucia">Cerro Santa Lucía</string>
+    <string name="top_spot_lamoneda">Palacio La Moneda</string>
+
+    <string name="local_fav_libertadprensa">Plaza Libertad de Prensa</string>
+    <string name="local_fav_sacramentinos">Basílica de los Sacramentinos</string>
+    <string name="local_fav_esculturas">Parque de las Esculturas</string>
+
+    <string name="views_bicentenario">Parque Bicentenario</string>
+    <string name="views_costanera">Costanera Center</string>
+    <string name="views_manquehue">Cerro Manquehue</string>
+
+    <string name="outdoors_quintanormal">Parque Quinta Normal</string>
+    <string name="outdoors_parqueforestal">Parque Forestal</string>
+    <string name="outdoors_parquearaucano">Parque Araucano</string>
+
 </resources>

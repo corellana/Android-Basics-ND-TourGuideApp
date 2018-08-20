@@ -25,9 +25,9 @@ public class ViewsVistasFragment extends Fragment {
 
         // Create a list of locations
         final ArrayList<Location> locations = new ArrayList<Location>();
-        locations.add(new Location("Parque Bicentenario", R.drawable.views_parque_bicentenario));
-        locations.add(new Location("Costanera Center", R.drawable.views_costanera_center));
-        locations.add(new Location("Cerro Manquehue", R.drawable.views_cerro_manquehue));
+        locations.add(new Location(R.string.views_bicentenario, R.drawable.views_parque_bicentenario));
+        locations.add(new Location(R.string.views_costanera, R.drawable.views_costanera_center));
+        locations.add(new Location(R.string.views_manquehue, R.drawable.views_cerro_manquehue));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
 

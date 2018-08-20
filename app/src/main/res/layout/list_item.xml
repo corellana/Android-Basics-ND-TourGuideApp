@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#FFFFFF"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/tan_background"
     android:orientation="vertical">
 
  <FrameLayout
@@ -32,7 +33,8 @@
              android:textStyle="normal"
              android:layout_gravity="bottom"
              android:fontFamily="@font/robotomedium"
-             android:layout_margin="@dimen/text_view_layout_margin"/>
+             android:layout_margin="@dimen/text_view_layout_margin"
+             tools:text="@string/hint_location_name"/>
 
  </FrameLayout>
 

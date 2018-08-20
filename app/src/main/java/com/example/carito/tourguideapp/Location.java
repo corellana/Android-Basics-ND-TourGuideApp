@@ -9,7 +9,7 @@ public class Location {
     /**
      * Name of the location
      */
-    private String mLocationName;
+    private int mLocationName;
 
     /**
      * Image Resource ID for the location
@@ -24,11 +24,10 @@ public class Location {
 
     /**
      * Create a new Location object.
-     *
-     * @param locationName is the name of a place/location
+     *  @param locationName is the name of a place/location
      * @param imageResourceId   is the drawable resource ID for the image asset.
      */
-    public Location(String locationName, int imageResourceId) {
+    public Location(int locationName, int imageResourceId) {
         mLocationName = locationName;
         this.mImageResourceId = imageResourceId;
     }
@@ -39,7 +38,7 @@ public class Location {
     /**
      * Get the location name of a place.
      */
-    public String getLocationName() {
+    public int getLocationName() {
         return mLocationName;
     }
 

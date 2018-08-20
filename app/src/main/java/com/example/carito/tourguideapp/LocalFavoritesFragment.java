@@ -25,9 +25,9 @@ public class LocalFavoritesFragment extends Fragment {
 
         // Create a list of locations
         final ArrayList<Location> locations = new ArrayList<Location>();
-        locations.add(new Location("Plaza Libertad de Prensa", R.drawable.localfav_libertad_de_prensa));
-        locations.add(new Location("Basílica de los Sacramentinos", R.drawable.localfav_basilica_sacramentinos));
-        locations.add(new Location("Parque de las Esculturas", R.drawable.localfav_parque_esculturas));
+        locations.add(new Location(R.string.local_fav_libertadprensa, R.drawable.localfav_libertad_de_prensa));
+        locations.add(new Location(R.string.local_fav_sacramentinos, R.drawable.localfav_basilica_sacramentinos));
+        locations.add(new Location(R.string.local_fav_esculturas, R.drawable.localfav_parque_esculturas));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
 

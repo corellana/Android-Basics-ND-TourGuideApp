@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
+
 import java.util.ArrayList;
 
 /**
@@ -25,9 +26,9 @@ public class OutdoorsFragment extends Fragment {
 
         // Create a list of locations
         final ArrayList<Location> locations = new ArrayList<Location>();
-        locations.add(new Location("Parque Quinta Normal", R.drawable.outdoors_parque_quinta_normal));
-        locations.add(new Location("Parque Forestal", R.drawable.outdoors_parque_forestal));
-        locations.add(new Location("Parque Araucano", R.drawable.outdoors_parque_araucano));
+        locations.add(new Location(R.string.outdoors_quintanormal, R.drawable.outdoors_parque_quinta_normal));
+        locations.add(new Location(R.string.outdoors_parqueforestal, R.drawable.outdoors_parque_forestal));
+        locations.add(new Location(R.string.outdoors_parquearaucano, R.drawable.outdoors_parque_araucano));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
 

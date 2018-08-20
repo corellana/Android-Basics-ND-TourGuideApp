@@ -25,9 +25,9 @@ public class TopSpotsFragment extends Fragment {
 
         // Create a list of locations
         final ArrayList<Location> locations = new ArrayList<Location>();
-        locations.add(new Location("Cerro San Cristóbal", R.drawable.topspot_san_cristobal));
-        locations.add(new Location("Cerro Santa Lucía", R.drawable.topspot_santa_lucia));
-        locations.add(new Location("Palacio La Moneda", R.drawable.topspot_la_moneda));
+        locations.add(new Location(R.string.top_spot_sancristobal, R.drawable.topspot_san_cristobal));
+        locations.add(new Location(R.string.top_spot_santalucia, R.drawable.topspot_santa_lucia));
+        locations.add(new Location(R.string.top_spot_lamoneda, R.drawable.topspot_la_moneda));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
 
